@@ -1,0 +1,134 @@
+{
+  "monsterCards": [
+    {
+      "title": "Dark Magician",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/b/b6/DarkMagician-DUPO-EN-UR-LE.png/revision/latest?cb=20190506182525",
+      "attribute": "Dark",
+      "type": "Spellcaster / Normal",
+      "level": 7,
+      "ATK": "2500",
+      "DEF": "2100",
+      "description" : "The ultimate wizard in terms of attack and defense."
+    },
+    {
+      "title": "Celtic Guardian",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/8/8f/CelticGuardian-MIL1-EN-R-1E.png/revision/latest?cb=20160415071241",
+      "attribute": "Earth",
+      "type": "Warrior",
+      "level": 4,
+      "ATK": "1400",
+      "DEF": "1200",
+      "description" : "An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks."
+    },
+    {
+      "title": "Blue-Eyes White Dragon",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/b/bf/BlueEyesWhiteDragon-SS02-EN-C-1E.png/revision/latest?cb=20190128200101",
+      "attribute": "Light",
+      "type": "Dragon / Normal",
+      "level": 8,
+      "ATK": "3000",
+      "DEF": "2500",
+      "description" : "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
+    },
+    {
+      "title": "Red-Eyes B. Dragon",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/b/b7/RedEyesBDragon-SS02-EN-C-1E.png/revision/latest?cb=20190129175202",
+      "attribute": "Dark",
+      "type": "Dragon / Normal",
+      "level": 7,
+      "ATK": "2400",
+      "DEF": "2000",
+      "description" : "A ferocious dragon with a deadly attack."
+    },
+    {
+      "title": "Jinzo",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/e/ef/Jinzo-DUSA-EN-UR-1E.png/revision/latest?cb=20170330172009",
+      "attribute": "Dark",
+      "type": "Machine / Effect",
+      "level": 6,
+      "ATK": "2400",
+      "DEF": "1500",
+      "description" : "Trap Cards, and their effects on the field, cannot be activated. Negate all Trap effects on the field."
+    },
+    {
+      "title": "The Legendary Fisherman",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/9/92/TheLegendaryFisherman-LEDU-EN-C-1E.png/revision/latest?cb=20170907222508",
+      "attribute": "Water",
+      "type": "Warrior / Effect",
+      "level": 5,
+      "ATK": "1850",
+      "DEF": "1600",
+      "description" : "While \"Umi\" is on the field, this card is unaffected by Spell effects and cannot be targeted for attacks, but does not prevent your opponent from attacking you directly."
+    },
+    {
+      "title": "Dark Master - Zorc",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/4/4f/DarkMasterZorc-MIL1-EN-C-1E.png/revision/latest?cb=20160415070857",
+      "attribute": "Dark",
+      "type": "Fiend / Ritual / Effect",
+      "level": 8,
+      "ATK": "2700",
+      "DEF": "1500",
+      "description" : "You can Ritual Summon this card with \"Contract with the Dark Master\". Once per turn: You can roll a six-sided die, then destroy all monsters your opponent controls if you roll 1 or 2, destroy 1 monster your opponent controls if you roll 3, 4 or 5, or destroy all monsters you control if you roll 6."
+    },
+    {
+      "title": "Black Luster Soldier",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/3/3f/BlackLusterSoldier-YGLD-EN-C-1E.png/revision/latest?cb=20170812174429",
+      "attribute": "Earth",
+      "type": "Warrior / Ritual",
+      "level": 8,
+      "ATK": "3000",
+      "DEF": "2500",
+      "description" : "You can Ritual Summon this card with \"Black Luster Ritual\"."
+    },
+    {
+      "title": "Gaia the Dragon Champion",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/6/62/GaiatheDragonChampion-YGLD-EN-C-1E.png/revision/latest?cb=20170813174420",
+      "attribute": "Wind",
+      "type": "Dragon / Fusion",
+      "level": 7,
+      "ATK": "2600",
+      "DEF": "2100",
+      "description" : "\"Gaia The Fierce Knight\" + \"Curse of Dragon\""
+    },
+    {
+      "title": "XYZ-Dragon Cannon",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/f/fd/XYZDragonCannon-LCKC-EN-UR-1E.png/revision/latest?cb=20180323165846",
+      "attribute": "Light",
+      "type": "Machine / Fusion / Effect",
+      "level": 8,
+      "ATK": "2800",
+      "DEF": "2600",
+      "description" : "\"X-Head Cannon\" + \"Y-Dragon Head\" + \"Z-Metal Tank\"\nMust first be Special Summoned (from your Extra Deck) by banishing the above cards you control. (You do not use \"Polymerization\".) Cannot be Special Summoned from the GY. You can discard 1 card, then target 1 card your opponent controls; destroy that target."
+    },
+    {
+      "title": "Exodia the Forbidden One",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/8/8f/ExodiatheForbiddenOne-LART-EN-UR-LE.png/revision/latest?cb=20190701182802",
+      "attribute": "Dark",
+      "type": "Spellcaster / Effect",
+      "level": 3,
+      "ATK": "1000",
+      "DEF": "1000",
+      "description" : "If you have \"Right Leg of the Forbidden One\", \"Left Leg of the Forbidden One\", \"Right Arm of the Forbidden One\" and \"Left Arm of the Forbidden One\" in addition to this card in your hand, you win the Duel."
+    },
+    {
+      "title": "Holactie the Creator of Light",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/b/bf/HolactietheCreatorofLight-YGOPR-JP-UR.png/revision/latest?cb=20150202011901",
+      "attribute": "Divine",
+      "type": "Creator God / Effect",
+      "level": 12,
+      "ATK": "?",
+      "DEF": "?",
+      "description" : "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 3 monsters whose original names are \"Slifer the Sky Dragon\", \"Obelisk the Tormentor\", and \"The Winged Dragon of Ra\". This card's Special Summon cannot be negated. The player that Special Summons this card wins the Duel."
+    },
+    {
+      "title": "Tatsunootoshigo",
+      "image" : "https://vignette.wikia.nocookie.net/yugioh/images/e/ee/Tatsunootoshigo-B2-JP-C.png/revision/latest?cb=20140510030529",
+      "attribute": "Earth",
+      "type": "Beast / Normal",
+      "level": 5,
+      "ATK": "1350",
+      "DEF": "1600",
+      "description" : "A bizarre monster with the torso of a horse and a fish's tail. It gallops through the sea as if it were the wind."
+    }
+  ]
+}
