@@ -13,6 +13,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.FragmentTransaction
 import com.bumptech.glide.Glide
+import com.google.firebase.database.FirebaseDatabase
 import kotlin.random.Random
 
 class Game : Fragment() {
@@ -33,6 +34,24 @@ class Game : Fragment() {
         if (bundle != null) {
             img = bundle.getString("img").toString()
         }
+    }
+    fun addDataToDatabase() {
+        //ประกาศตัวแปร DatabaseReference รับค่า Instance และอ้างถึง path ที่เราต้องการใน database
+        val mRootRef = FirebaseDatabase.getInstance().getReference()
+
+        //อ้างอิงไปที่ path ที่เราต้องการจะจัดการข้อมูล ตัวอย่างคือ users และ messages
+        val mScoreRef = mRootRef.child("score")
+
+        val key = mScoreRef.push().key
+        val postValues: HashMap<String, Any> = HashMap()
+        postValues["score"] = score
+
+        val childUpdates: MutableMap<String, Any> = HashMap()
+
+        childUpdates["$key"] = postValues
+
+        mScoreRef.updateChildren(childUpdates)
+
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -55,6 +74,7 @@ class Game : Fragment() {
                 for (images in imgArray) {
                     images.visibility = View.INVISIBLE
                 }
+                addDataToDatabase()
             }
 
             override fun onTick(millisUntilFinished: Long) {
