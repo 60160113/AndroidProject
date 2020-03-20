@@ -5,6 +5,7 @@
  - Recycler View
  - Firebase (Facebook Authentication)
  - Dialog
+ - Firebase (Realtime Database)
  3. SCREENSHOTS : ภาพหน้าจอ มีดังนี้
 ![Alt text](img/1.png?raw=true)
 
